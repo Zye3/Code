@@ -1,7 +1,8 @@
 # Code
-###数据转化和分割
-   1.txt 文件生产 每张图片对应的.pts 文件
-   2.将文件夹数据，按9：1 分成10份，用于交叉验证.
+###数据转化和分割：
+
+   		1.txt 文件生产 每张图片对应的.pts 文件
+		2.将文件夹数据，按9：1 分成10份，用于交叉验证.
 
 
 ###SDU模型的mxnet框架数据集制作（4）/home/ye/Desktop/Model/insightface-master/alignment/src/data/

@@ -139,8 +139,7 @@
 					   6.三种方法在该十个测试集图片中嘴巴上点的平均RMSE值，y-axis为值，x-axis为点数（49-68），同上
 
 					   重复3种数据集，共18张图）
-
-
+					   
 ###Benchmark vs the optimal method:
 
 	在相同的数据集训练的情况下，用MulitPLE和COFW，对比OpenFace和SDU，68个点（CED）和各个器官（柱状图

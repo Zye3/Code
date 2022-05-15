@@ -146,11 +146,12 @@
 
 
 
-###Benchmark vs the optimal method
+###Benchmark vs the optimal method:
+
 	在相同的数据集训练的情况下，用MulitPLE和COFW，对比OpenFace和SDU，68个点（CED）和各个器官（柱状图
 
 
-###Demo：
+###Demo:
 
 	修改显示和保存出68个点的坐标位置 
 	106points: 	mouse (52-71) nose（72,73,74,78,79,80,84,85,86）

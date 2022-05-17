@@ -107,7 +107,10 @@ def image_encode(args, i, item, q_out):
                 f.write(ii)
 
         header = mx.recordio.IRHeader(item.flag, dst_, item.id, 0)
-        s = mx.recordio.pack_img(header, img, quality=args.quality, img_fmt=args.encoding)
+        if fullpath.split(".")[-1]=="jpg":
+            s = mx.recordio.pack_img(header, img, quality=args.quality, img_fmt=args.encoding)
+        if gullpath.split(".")[-1]=="png":
+            s = mx.recordio.pack_img(header,img, quality=ars.quality, img_fmt="png")
         q_out.put((i, s, oitem))
 
 

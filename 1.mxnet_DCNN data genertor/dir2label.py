@@ -12,7 +12,10 @@ for i in os.listdir(path):
     if i.split(".")[-1] == "pts":
         with open("{}/{}".format(path, i), "r") as f:
             data = f.readlines()
-        label += "{}/{}.jpg".format(path, i.split(".")[0])
+            if i.split(".")[-1]=="jpg":
+                label += "{}/{}.jpg".format(path, i.split(".")[0])
+            elif i.split(".")[-1]=="png":
+                label +="{}/{}.png".format(path,i.split(".")[0])
         points = data[10:78] #save line of pts file
         x_min, x_max, y_min, y_max = 1000000, 0, 1000000, 0
         for m in points:

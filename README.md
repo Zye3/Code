@@ -70,8 +70,8 @@
 	    (三种模型，DCNN，DAN，heatmapReg，三种数据集，每种分成10个测试集)
 
 		0.DAN 和 heatmapReg 模型的批量数据预测 ：
-		原代码:DAN_V2_img.py：原DAN模型，单张图片输入测试 改为批量输入图片，修改人脸检测器
-		      test_batch.py：原heatmapReg，批量图片输入测试 修改人脸检测器
+		原代码:DAN_V2_img.py：原DAN模型，单张图片输入测试 改为批量输入图片
+		      test_batch.py：原heatmapReg，批量图片输入测试 
 		
 		输入：一个文件夹内的测试集，
 		 

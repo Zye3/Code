@@ -62,6 +62,15 @@
         2.可视化SDU,输入：图片和模型文件：
                      输出：可视化指定网络层效果，（可以 打印网络层查询）
  
+###DAN模型训练：
+	Preprocess：
+		python preprocessing.py --input_dir=... --output_dir=... --istrain=True --repeat=10 --img_size=112 --mirror_file=./Mirror68.txt
+	Train model：
+		python DAN_V2.py -ds 1 --data_dir=preprocess_output_dir --data_dir_test=...orNone -nlm 68 -te=15 -epe=1 -mode train
+		python DAN_V2.py -ds 2 --data_dir=preprocess_output_dir --data_dir_test=...orNone -nlm 68 -te=45 -epe=1 -mode train
+
+
+
 
 ###评估测试集(图片包括.jpg 或.png)：
 (三种模型，DCNN，DAN，SDU，三种数据集，每种分成10个测试集)   ### 10个测试集

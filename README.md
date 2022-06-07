@@ -68,6 +68,9 @@
 	Train model：
 		python DAN_V2.py -ds 1 --data_dir=preprocess_output_dir --data_dir_test=...orNone -nlm 68 -te=15 -epe=1 -mode train
 		python DAN_V2.py -ds 2 --data_dir=preprocess_output_dir --data_dir_test=...orNone -nlm 68 -te=45 -epe=1 -mode train
+		
+	Test:
+		python DAN_V3_img.py 批量输入图片,增加人脸检测器scrfd,输入仅支持图片文件
 
 
 

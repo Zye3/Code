@@ -63,8 +63,10 @@
                      输出：可视化指定网络层效果，（可以 打印网络层查询）
  
 ###DAN模型训练：
+	
 	Preprocess：
 		python preprocessing.py --input_dir=... --output_dir=... --istrain=True --repeat=10 --img_size=112 --mirror_file=./Mirror68.txt
+		
 	Train model：
 		python DAN_V2.py -ds 1 --data_dir=preprocess_output_dir --data_dir_test=...orNone -nlm 68 -te=15 -epe=1 -mode train
 		python DAN_V2.py -ds 2 --data_dir=preprocess_output_dir --data_dir_test=...orNone -nlm 68 -te=45 -epe=1 -mode train

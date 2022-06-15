@@ -54,8 +54,9 @@
         scrfd.py 中 softmax和nms（输入预测框，排序找出与真实框最接近的预测框））
 
 	3.修改模型测试时人脸检测器为SCRFD
-
-
+	
+	detection_model_eval.py 对比scrfd和mtcnn模型所生产的人脸候选框
+	
 ###人脸关键点检测模型：（7）
 	           DAN_V2,path：/home/ye/Desktop/Model
 		   heatmapReg,path：/home/ye/Desktop/Model/SDU
